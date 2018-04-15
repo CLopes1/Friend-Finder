@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container, .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+}
