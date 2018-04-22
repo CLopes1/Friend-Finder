@@ -21,12 +21,16 @@ module.exports = function (app) {
         var userData = req.body; // where the body parser shines
         console.log('userData', userData);
 
-        // loop over friends and find best match
+        //Grab new friend's data
+
+        // add new friend to friends array
+
+        // loop over friends list, do a comparison to find best match
         for (var i = 0; i < friends.length; i++) {
             console.log("console logging i" + i)
         }
 
-        // add new friend to friends array
+        
 
         // return best match
         res.json(friends);
