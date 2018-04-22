@@ -1,8 +1,8 @@
 // Data structure that will store the friends data
 var friends = [
 	{
-		name: 'Scooter',
-		photo: 'http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-15.jpg',
+		name: 'Tuna',
+		photo: 'https://s3.amazonaws.com/media.ohi/18051_download_2f.jpeg',
 		scores: [
 			'1',
 			'5',
@@ -17,8 +17,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Fluffy',
-		photo: 'https://i.ytimg.com/vi/mRf3-JkwqfU/hqdefault.jpg',
+		name: 'Donald',
+		photo: 'https://i.ytimg.com/vi/LS4Lw2yMmuA/maxresdefault.jpg',
 		scores: [
 			'2',
 			'4',
@@ -33,8 +33,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Spencer',
-		photo: 'http://cdn3-www.cattime.com/assets/uploads/2011/08/best-kitten-names-1.jpg',
+		name: 'Gene',
+		photo: 'https://i0.wp.com/www.metalinjection.net/wp-content/uploads/2017/06/gene-simmons-kiss.jpg?fit=700%2C367',
 		scores: [
 			'4',
 			'3',
@@ -49,8 +49,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Zackariah',
-		photo: 'https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg',
+		name: 'Borat',
+		photo: 'http://i.dailymail.co.uk/i/pix/2013/02/22/article-0-05A8ED680000044D-622_634x428.jpg',
 		scores: [
 			'5',
 			'1',
@@ -65,8 +65,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Cloe',
-		photo: 'http://4.bp.blogspot.com/-HTvSYzA-pO4/UgQb4Zh_u0I/AAAAAAAAEuI/XwhtogT_1tA/s1600/3+cute2.jpg',
+		name: 'Mickey',
+		photo: 'https://vignette.wikia.nocookie.net/disney/images/e/e2/Mickey-mouse-image-hd-disney.jpg/revision/latest?cb=20140813232634',
 		scores: [
 			'1',
 			'1',
@@ -81,8 +81,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Mrs. Piggy',
-		photo: 'http://img.mindbodygreen.com/image/upload/c_limit,w_738,f_auto/ftr/Miss-Piggy-large-tonya-312.jpg',
+		name: 'Mike',
+		photo: 'https://www.sideshowtoy.com/wp-content/uploads/2015/03/902362-product-feature-990x600.jpg',
 		scores: [
 			'1',
 			'1',
@@ -97,8 +97,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Beyonce Knowles',
-		photo: 'http://www.billboard.com/files/styles/article_main_image/public/media/beyonce-feb-2014-billboard-650.jpg',
+		name: 'Yoda',
+		photo: 'https://cdn.images.express.co.uk/img/dynamic/36/750x445/837201.jpg',
 		scores: [
 			'5',
 			'4',
@@ -113,8 +113,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Adele Adkins',
-		photo: 'https://i1.imgiz.com/data/videoshots/6829/6829475-6461.jpg',
+		name: 'Lord Helmet',
+		photo: 'https://pbs.twimg.com/profile_images/2371344739/h7j9r4p2iby5o2li9pmk.jpeg',
 		scores: [
 			'5',
 			'2',
@@ -145,8 +145,8 @@ var friends = [
 		]
 	},
 	{
-		name: 'Elmo',
-		photo: 'http://1rjm5qg4v8732kpmn44ya6bj-wpengine.netdna-ssl.com/wp-content/uploads/2012/11/elmo-6601.png',
+		name: 'Grumpy Cat',
+		photo: 'http://athenaposters.ca/wp-content/uploads/2017/03/RP14303-Grumpy-Cat-Go-Away.jpg',
 		scores: [
 			'1',
 			'1',

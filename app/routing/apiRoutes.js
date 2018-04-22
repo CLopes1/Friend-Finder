@@ -17,19 +17,19 @@ module.exports = function (app) {
     app.post('/api/friends', function (req, res) {
         friends.push(req.body)
 
-          //console.log('req', req);
-  var userData = req.body; // where the body parser shines
-  console.log('userData', userData);
+        //console.log('req', req);
+        var userData = req.body; // where the body parser shines
+        console.log('userData', userData);
 
-  // loop over friends and find best match
-  for (var i = 0; i < friends.length; i++) {
-    console.log("console logging i" + i)
-  }
+        // loop over friends and find best match
+        for (var i = 0; i < friends.length; i++) {
+            console.log("console logging i" + i)
+        }
 
-  // add new friend to friends array
+        // add new friend to friends array
 
-  // return best match
-  res.json(friends);
+        // return best match
+        res.json(friends);
     })
 
 }

@@ -15,7 +15,7 @@ app.use(bodyparser.json())
 var htmlRoutes = require('./app/routing/htmlRoutes')(app);
 
 //This is new - testing
-çrequire('./app/routing/apiRoutes')(app);
+require('./app/routing/apiRoutes')(app);
 
 var PORT = process.env.PORT || 3000
 // listening port
