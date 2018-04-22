@@ -17,20 +17,30 @@ module.exports = function (app) {
     app.post('/api/friends', function (req, res) {
         friends.push(req.body)
 
-        //console.log('req', req);
-        var userData = req.body; // where the body parser shines
-        console.log('userData', userData);
-
-        //Grab new friend's data
-
-        // add new friend to friends array
-
-        // loop over friends list, do a comparison to find best match
-        for (var i = 0; i < friends.length; i++) {
-            console.log("console logging i" + i)
-        }
-
+        //Store user input in a variable and key into the scores parameter
+        var surveyInput = req.body; // where the body parser shines
+        scoreArr = ('userData', surveyInput.scores);
         
+        //Converts the scores array from a list of strings to a list of integers
+        //stringArr.map(Number) will convert an array of strings to an array of numbers
+        var numbers = scoreArr.map(Number);
+        console.log(numbers)
+        
+        //Gets total sum of integers in the 
+        function getSum(total, num) {
+            return total + num;
+        }
+        
+        surveyTotal = numbers.reduce(getSum);
+        console.log("the total is = " + surveyTotal)
+
+
+        // Loop over friends list, do a comparison to find best match
+        // for (var i = 0; i < friends.length; i++) {
+        // console.log("console logging i" + i)
+        // }
+
+
 
         // return best match
         res.json(friends);
